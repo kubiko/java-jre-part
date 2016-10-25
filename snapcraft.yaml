@@ -1,0 +1,15 @@
+name: java-jre
+version: "8u102"
+summary: java-jre
+description:|
+  A part for java-jre 8. It uses zulu runtime of available for targer platform, which performs
+  lot better on arm.
+
+parts:
+    java-jre:
+        plugin: java-jre
+        zulu-armhf: http://zulu.org/download/?platform=Linux&processor=ARM%20v7&bitness=32#
+        # zulu-armel:
+        # zulu-arm64
+        zulu-amd64: http://cdn.azul.com/zulu/bin/zulu8.17.0.3-jdk8.0.102-linux_x64.tar.gz
+        # zulu-x86
