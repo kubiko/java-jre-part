@@ -1,9 +1,7 @@
 name: java-jre
 version: "8u102"
 summary: java-jre
-description:|
-  A part for java-jre 8. It uses zulu runtime of available for targer platform, which performs
-  lot better on arm.
+description: A part for java-jre 8. It uses zulu runtime of available for targer platform, which performs lot better on arm.
 
 parts:
     java-jre:
